@@ -71,7 +71,7 @@ const progressBarAnimation = (e) => {
   const currentTask = tasksArray.indexOf(e.currentTarget) + 1
   // console.log('current task index :', currentTask)
 
-  const lastTaskDone = parseInt(localStorage.getItem('progress') / tasksArray.length)
+  const lastTaskDone = Math.round(localStorage.getItem('progress') * tasksArray.length / 100)
   const taskToDo = lastTaskDone + 1
 
   if(taskToDo < currentTask){

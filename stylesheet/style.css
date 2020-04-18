@@ -10,14 +10,14 @@ html {
 }
 
 #class-languages{
-  position: absolute;
+  width: 20vw;
+  font-size: 5vw;
   padding: 2vw;
-  width: 10vw;
-  font-size: 3vw;
-  display: flex;
-  justify-content: space-between;
+  position: absolute;
   top: 0;
   right: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 
